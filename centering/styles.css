@@ -1,0 +1,31 @@
+body {
+    background-image: url(a_creek_in_st._thomas_\(virgin_islands\)_1985.64.29.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: rosybrown;
+    font-size: 4rem;
+    padding: 2rem;
+    border-radius: 15px;
+    border: none;
+}
